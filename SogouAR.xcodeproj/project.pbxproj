@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4444BD671FB00ABD003CCD92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4444BD661FB00ABD003CCD92 /* AppDelegate.m */; };
+		4444BD6A1FB00ABD003CCD92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4444BD691FB00ABD003CCD92 /* ViewController.m */; };
+		4444BD6D1FB00ABD003CCD92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4444BD6B1FB00ABD003CCD92 /* Main.storyboard */; };
+		4444BD6F1FB00ABD003CCD92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4444BD6E1FB00ABD003CCD92 /* Assets.xcassets */; };
+		4444BD721FB00ABD003CCD92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4444BD701FB00ABD003CCD92 /* LaunchScreen.storyboard */; };
+		4444BD751FB00ABD003CCD92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4444BD741FB00ABD003CCD92 /* main.m */; };
+		4444BD861FB00C4C003CCD92 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444BD851FB00C4C003CCD92 /* Utilities.swift */; };
+		4444BD881FB00C52003CCD92 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444BD871FB00C52003CCD92 /* FocusSquare.swift */; };
+		4444BD901FB00C86003CCD92 /* FeatureHitTestResultOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4444BD8B1FB00C86003CCD92 /* FeatureHitTestResultOC.m */; };
+		4444BD911FB00C86003CCD92 /* ScreenPositionResultOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4444BD8D1FB00C86003CCD92 /* ScreenPositionResultOC.m */; };
+		4444BD921FB00C86003CCD92 /* HitTestRayOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4444BD8F1FB00C86003CCD92 /* HitTestRayOC.m */; };
+		4444BD971FB00FAE003CCD92 /* ViewController+ARSCNViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4444BD931FB00FAE003CCD92 /* ViewController+ARSCNViewDelegate.m */; };
+		4444BD981FB00FAE003CCD92 /* ViewController+ARSessionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4444BD961FB00FAE003CCD92 /* ViewController+ARSessionDelegate.m */; };
+		4444BD9A1FB01151003CCD92 /* Model.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4444BD991FB01151003CCD92 /* Model.scnassets */; };
+		4444BDA01FB039C5003CCD92 /* SGTextNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4444BD9F1FB039C5003CCD92 /* SGTextNode.m */; };
+		44AA0AD71FBEAEA0008AD456 /* SGARObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA0AD61FBEAEA0008AD456 /* SGARObject.m */; };
+		44AA0ADA1FBEAEE0008AD456 /* SGARObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA0AD91FBEAEE0008AD456 /* SGARObjectManager.m */; };
+		44AA0ADD1FBECF4E008AD456 /* ViewController+ObjectSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA0ADC1FBECF4E008AD456 /* ViewController+ObjectSelection.m */; };
+		44AA0AE11FBEEC9F008AD456 /* SGARGestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA0AE01FBEEC9F008AD456 /* SGARGestureHandler.m */; };
+		44AA0AE41FBEECD2008AD456 /* SGARSingleFingerGestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA0AE31FBEECD2008AD456 /* SGARSingleFingerGestureHandler.m */; };
+		44AA0AE71FBEECE8008AD456 /* SGARTwoFingerGestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AA0AE61FBEECE8008AD456 /* SGARTwoFingerGestureHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4444BD621FB00ABD003CCD92 /* SogouAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SogouAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4444BD651FB00ABD003CCD92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4444BD661FB00ABD003CCD92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4444BD681FB00ABD003CCD92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4444BD691FB00ABD003CCD92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4444BD6C1FB00ABD003CCD92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4444BD6E1FB00ABD003CCD92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4444BD711FB00ABD003CCD92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4444BD731FB00ABD003CCD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4444BD741FB00ABD003CCD92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4444BD841FB00C4B003CCD92 /* SogouAR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SogouAR-Bridging-Header.h"; sourceTree = "<group>"; };
+		4444BD851FB00C4C003CCD92 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		4444BD871FB00C52003CCD92 /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		4444BD8A1FB00C86003CCD92 /* FeatureHitTestResultOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeatureHitTestResultOC.h; sourceTree = "<group>"; };
+		4444BD8B1FB00C86003CCD92 /* FeatureHitTestResultOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeatureHitTestResultOC.m; sourceTree = "<group>"; };
+		4444BD8C1FB00C86003CCD92 /* HitTestRayOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitTestRayOC.h; sourceTree = "<group>"; };
+		4444BD8D1FB00C86003CCD92 /* ScreenPositionResultOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenPositionResultOC.m; sourceTree = "<group>"; };
+		4444BD8E1FB00C86003CCD92 /* ScreenPositionResultOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenPositionResultOC.h; sourceTree = "<group>"; };
+		4444BD8F1FB00C86003CCD92 /* HitTestRayOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitTestRayOC.m; sourceTree = "<group>"; };
+		4444BD931FB00FAE003CCD92 /* ViewController+ARSCNViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+ARSCNViewDelegate.m"; sourceTree = "<group>"; };
+		4444BD941FB00FAE003CCD92 /* ViewController+ARSessionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+ARSessionDelegate.h"; sourceTree = "<group>"; };
+		4444BD951FB00FAE003CCD92 /* ViewController+ARSCNViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+ARSCNViewDelegate.h"; sourceTree = "<group>"; };
+		4444BD961FB00FAE003CCD92 /* ViewController+ARSessionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+ARSessionDelegate.m"; sourceTree = "<group>"; };
+		4444BD991FB01151003CCD92 /* Model.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Model.scnassets; sourceTree = "<group>"; };
+		4444BD9E1FB039C5003CCD92 /* SGTextNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGTextNode.h; sourceTree = "<group>"; };
+		4444BD9F1FB039C5003CCD92 /* SGTextNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGTextNode.m; sourceTree = "<group>"; };
+		44AA0AD51FBEAEA0008AD456 /* SGARObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGARObject.h; sourceTree = "<group>"; };
+		44AA0AD61FBEAEA0008AD456 /* SGARObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGARObject.m; sourceTree = "<group>"; };
+		44AA0AD81FBEAEE0008AD456 /* SGARObjectManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGARObjectManager.h; sourceTree = "<group>"; };
+		44AA0AD91FBEAEE0008AD456 /* SGARObjectManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGARObjectManager.m; sourceTree = "<group>"; };
+		44AA0ADB1FBECF4E008AD456 /* ViewController+ObjectSelection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+ObjectSelection.h"; sourceTree = "<group>"; };
+		44AA0ADC1FBECF4E008AD456 /* ViewController+ObjectSelection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+ObjectSelection.m"; sourceTree = "<group>"; };
+		44AA0ADF1FBEEC9F008AD456 /* SGARGestureHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGARGestureHandler.h; sourceTree = "<group>"; };
+		44AA0AE01FBEEC9F008AD456 /* SGARGestureHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGARGestureHandler.m; sourceTree = "<group>"; };
+		44AA0AE21FBEECD2008AD456 /* SGARSingleFingerGestureHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGARSingleFingerGestureHandler.h; sourceTree = "<group>"; };
+		44AA0AE31FBEECD2008AD456 /* SGARSingleFingerGestureHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGARSingleFingerGestureHandler.m; sourceTree = "<group>"; };
+		44AA0AE51FBEECE8008AD456 /* SGARTwoFingerGestureHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGARTwoFingerGestureHandler.h; sourceTree = "<group>"; };
+		44AA0AE61FBEECE8008AD456 /* SGARTwoFingerGestureHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGARTwoFingerGestureHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4444BD5F1FB00ABD003CCD92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4444BD591FB00ABD003CCD92 = {
+			isa = PBXGroup;
+			children = (
+				4444BD641FB00ABD003CCD92 /* SogouAR */,
+				4444BD631FB00ABD003CCD92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4444BD631FB00ABD003CCD92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4444BD621FB00ABD003CCD92 /* SogouAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4444BD641FB00ABD003CCD92 /* SogouAR */ = {
+			isa = PBXGroup;
+			children = (
+				4444BD891FB00C5D003CCD92 /* FocusSquare */,
+				4444BD651FB00ABD003CCD92 /* AppDelegate.h */,
+				4444BD661FB00ABD003CCD92 /* AppDelegate.m */,
+				4444BD681FB00ABD003CCD92 /* ViewController.h */,
+				4444BD691FB00ABD003CCD92 /* ViewController.m */,
+				44AA0ADB1FBECF4E008AD456 /* ViewController+ObjectSelection.h */,
+				44AA0ADC1FBECF4E008AD456 /* ViewController+ObjectSelection.m */,
+				4444BD951FB00FAE003CCD92 /* ViewController+ARSCNViewDelegate.h */,
+				4444BD931FB00FAE003CCD92 /* ViewController+ARSCNViewDelegate.m */,
+				4444BD941FB00FAE003CCD92 /* ViewController+ARSessionDelegate.h */,
+				4444BD961FB00FAE003CCD92 /* ViewController+ARSessionDelegate.m */,
+				44AA0ADE1FBEEBDF008AD456 /* Gestures */,
+				44AA0AD41FBEADC7008AD456 /* Virtual Objects */,
+				4444BD9E1FB039C5003CCD92 /* SGTextNode.h */,
+				4444BD9F1FB039C5003CCD92 /* SGTextNode.m */,
+				4444BD6B1FB00ABD003CCD92 /* Main.storyboard */,
+				4444BD991FB01151003CCD92 /* Model.scnassets */,
+				4444BD6E1FB00ABD003CCD92 /* Assets.xcassets */,
+				4444BD701FB00ABD003CCD92 /* LaunchScreen.storyboard */,
+				4444BD731FB00ABD003CCD92 /* Info.plist */,
+				4444BD741FB00ABD003CCD92 /* main.m */,
+				4444BD841FB00C4B003CCD92 /* SogouAR-Bridging-Header.h */,
+			);
+			path = SogouAR;
+			sourceTree = "<group>";
+		};
+		4444BD891FB00C5D003CCD92 /* FocusSquare */ = {
+			isa = PBXGroup;
+			children = (
+				4444BD851FB00C4C003CCD92 /* Utilities.swift */,
+				4444BD871FB00C52003CCD92 /* FocusSquare.swift */,
+				4444BD8A1FB00C86003CCD92 /* FeatureHitTestResultOC.h */,
+				4444BD8B1FB00C86003CCD92 /* FeatureHitTestResultOC.m */,
+				4444BD8C1FB00C86003CCD92 /* HitTestRayOC.h */,
+				4444BD8F1FB00C86003CCD92 /* HitTestRayOC.m */,
+				4444BD8E1FB00C86003CCD92 /* ScreenPositionResultOC.h */,
+				4444BD8D1FB00C86003CCD92 /* ScreenPositionResultOC.m */,
+			);
+			path = FocusSquare;
+			sourceTree = "<group>";
+		};
+		44AA0AD41FBEADC7008AD456 /* Virtual Objects */ = {
+			isa = PBXGroup;
+			children = (
+				44AA0AD51FBEAEA0008AD456 /* SGARObject.h */,
+				44AA0AD61FBEAEA0008AD456 /* SGARObject.m */,
+				44AA0AD81FBEAEE0008AD456 /* SGARObjectManager.h */,
+				44AA0AD91FBEAEE0008AD456 /* SGARObjectManager.m */,
+			);
+			path = "Virtual Objects";
+			sourceTree = "<group>";
+		};
+		44AA0ADE1FBEEBDF008AD456 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				44AA0ADF1FBEEC9F008AD456 /* SGARGestureHandler.h */,
+				44AA0AE01FBEEC9F008AD456 /* SGARGestureHandler.m */,
+				44AA0AE21FBEECD2008AD456 /* SGARSingleFingerGestureHandler.h */,
+				44AA0AE31FBEECD2008AD456 /* SGARSingleFingerGestureHandler.m */,
+				44AA0AE51FBEECE8008AD456 /* SGARTwoFingerGestureHandler.h */,
+				44AA0AE61FBEECE8008AD456 /* SGARTwoFingerGestureHandler.m */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4444BD611FB00ABD003CCD92 /* SogouAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4444BD781FB00ABD003CCD92 /* Build configuration list for PBXNativeTarget "SogouAR" */;
+			buildPhases = (
+				4444BD5E1FB00ABD003CCD92 /* Sources */,
+				4444BD5F1FB00ABD003CCD92 /* Frameworks */,
+				4444BD601FB00ABD003CCD92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SogouAR;
+			productName = SogouAR;
+			productReference = 4444BD621FB00ABD003CCD92 /* SogouAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4444BD5A1FB00ABD003CCD92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = fk;
+				TargetAttributes = {
+					4444BD611FB00ABD003CCD92 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4444BD5D1FB00ABD003CCD92 /* Build configuration list for PBXProject "SogouAR" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4444BD591FB00ABD003CCD92;
+			productRefGroup = 4444BD631FB00ABD003CCD92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4444BD611FB00ABD003CCD92 /* SogouAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4444BD601FB00ABD003CCD92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4444BD721FB00ABD003CCD92 /* LaunchScreen.storyboard in Resources */,
+				4444BD9A1FB01151003CCD92 /* Model.scnassets in Resources */,
+				4444BD6F1FB00ABD003CCD92 /* Assets.xcassets in Resources */,
+				4444BD6D1FB00ABD003CCD92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4444BD5E1FB00ABD003CCD92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AA0ADD1FBECF4E008AD456 /* ViewController+ObjectSelection.m in Sources */,
+				4444BDA01FB039C5003CCD92 /* SGTextNode.m in Sources */,
+				4444BD6A1FB00ABD003CCD92 /* ViewController.m in Sources */,
+				44AA0AE71FBEECE8008AD456 /* SGARTwoFingerGestureHandler.m in Sources */,
+				4444BD751FB00ABD003CCD92 /* main.m in Sources */,
+				44AA0AE41FBEECD2008AD456 /* SGARSingleFingerGestureHandler.m in Sources */,
+				4444BD861FB00C4C003CCD92 /* Utilities.swift in Sources */,
+				44AA0ADA1FBEAEE0008AD456 /* SGARObjectManager.m in Sources */,
+				4444BD911FB00C86003CCD92 /* ScreenPositionResultOC.m in Sources */,
+				4444BD971FB00FAE003CCD92 /* ViewController+ARSCNViewDelegate.m in Sources */,
+				4444BD921FB00C86003CCD92 /* HitTestRayOC.m in Sources */,
+				44AA0AD71FBEAEA0008AD456 /* SGARObject.m in Sources */,
+				44AA0AE11FBEEC9F008AD456 /* SGARGestureHandler.m in Sources */,
+				4444BD901FB00C86003CCD92 /* FeatureHitTestResultOC.m in Sources */,
+				4444BD671FB00ABD003CCD92 /* AppDelegate.m in Sources */,
+				4444BD881FB00C52003CCD92 /* FocusSquare.swift in Sources */,
+				4444BD981FB00FAE003CCD92 /* ViewController+ARSessionDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4444BD6B1FB00ABD003CCD92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4444BD6C1FB00ABD003CCD92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4444BD701FB00ABD003CCD92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4444BD711FB00ABD003CCD92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4444BD761FB00ABD003CCD92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4444BD771FB00ABD003CCD92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4444BD791FB00ABD003CCD92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LSND274XQ9;
+				INFOPLIST_FILE = SogouAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FK.SogouAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SogouAR/SogouAR-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4444BD7A1FB00ABD003CCD92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LSND274XQ9;
+				INFOPLIST_FILE = SogouAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FK.SogouAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SogouAR/SogouAR-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4444BD5D1FB00ABD003CCD92 /* Build configuration list for PBXProject "SogouAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4444BD761FB00ABD003CCD92 /* Debug */,
+				4444BD771FB00ABD003CCD92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4444BD781FB00ABD003CCD92 /* Build configuration list for PBXNativeTarget "SogouAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4444BD791FB00ABD003CCD92 /* Debug */,
+				4444BD7A1FB00ABD003CCD92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4444BD5A1FB00ABD003CCD92 /* Project object */;
+}
